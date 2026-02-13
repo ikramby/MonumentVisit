@@ -44,11 +44,6 @@
           "locationAlwaysAndWhenInUsePermission": "Allow Monument Visit to use your location to find monuments near you."
         }
       ]
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "be801b4f-ae5e-48a5-9255-6ab0a1a5ab09"
-      }
-    }
+    ]
   }
 }
