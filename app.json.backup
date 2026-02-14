@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Monument Visit",
+    "slug": "monument-visit-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.khalilelabri.monumentvisitapp",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to location to show monuments near you.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs access to location to show monuments near you."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.khalilelabri.monumentvisitapp",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Monument Visit to use your location to find monuments near you."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "be801b4f-ae5e-48a5-9255-6ab0a1a5ab09"
+      }
+    }
+  }
+}
